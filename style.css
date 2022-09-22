@@ -3,4 +3,37 @@ body,
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%; /* 10px*/
+}
+
+/* cdb4db (purpleish color); ffc8dd (light pink); ffafcc (dark pink); bde0fe (light blue); a2d2ff (dark blue); f5ebe0 (off-white)*/
+.head {
+  padding: 5rem;
+  width: 100vw;
+  background-color: aliceblue;
+}
+
+#heading {
+  text-align: center;
+  font-size: 7rem;
+}
+
+.card {
+  background-color: #ffc8dd;
+  width: 50rem;
+  height: 60rem;
+  margin-top: 12rem;
+  border-radius: 5%;
+}
+
+.name {
+  font-size: 6rem;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.parent {
+  display: flex;
+  justify-content: space-around;
 }
