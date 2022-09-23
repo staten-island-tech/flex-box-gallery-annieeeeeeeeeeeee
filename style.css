@@ -26,9 +26,10 @@ body {
 
 .card {
   background-color: #f5cac3;
-  width: 50rem;
-  height: 50rem;
+  width: 40rem;
+  height: 40rem;
   margin-top: 12rem;
+  margin-bottom: 12rem;
   border-radius: 5%;
 }
 
@@ -39,7 +40,7 @@ body {
   color: ;
 }
 
-.parent {
+.rows {
   display: flex;
   justify-content: space-around;
 }
