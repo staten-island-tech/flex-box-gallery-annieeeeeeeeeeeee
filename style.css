@@ -37,10 +37,14 @@ body {
   font-size: 6rem;
   text-align: center;
   padding-top: 4rem;
-  color: ;
 }
 
 .rows {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 75%;
+  margin: auto;
+}
+
+.flex-container {
 }
