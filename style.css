@@ -8,43 +8,51 @@ body,
 }
 
 body {
-  background-color: #f7ede2;
+  background-color: #fadde1;
 }
 
 /* cdb4db (purpleish color); ffc8dd (light pink); ffafcc (dark pink); bde0fe (light blue); a2d2ff (dark blue); f5ebe0 (off-white)*/
-.head {
-  padding: 5rem;
-  width: 100vw;
-  background-color: #84a59d;
-}
-
-#heading {
-  text-align: center;
-  font-size: 7rem;
-  color: #f7ede2;
-}
-
-.card {
-  background-color: #f5cac3;
-  width: 40rem;
-  height: 40rem;
-  margin-top: 12rem;
-  margin-bottom: 12rem;
-  border-radius: 5%;
-}
-
-.name {
-  font-size: 6rem;
-  text-align: center;
-  padding-top: 4rem;
-}
-
 .rows {
   display: flex;
   justify-content: space-between;
   width: 75%;
   margin: auto;
+  flex-wrap: wrap;
 }
 
-.flex-container {
+.head {
+  padding: 5rem;
+  width: 100vw;
+  background-color: #ffa6c1;
+}
+
+#heading {
+  text-align: center;
+  font-size: 10rem;
+  color: #ff5d8f;
+  font-family: "Paytone One", sans-serif;
+}
+
+.card {
+  background-color: #ffacc5;
+  width: 40rem;
+  height: 40rem;
+  margin-top: 12rem;
+  margin-bottom: 12rem;
+  border-radius: 5%;
+  box-shadow: 0 4px 8px 0 #ffffff;
+}
+
+.name {
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.img {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 40rem;
+  height: 40rem;
+  border-radius: 5%;
 }
