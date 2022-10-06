@@ -17,8 +17,17 @@ body {
   justify-content: space-between;
   width: 75%;
   margin: auto;
-  flex-wrap: wrap;
   align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 900px) {
+  .rows {
+    flex-direction: column;
+  }
+  .card {
+    width: 40rem;
+  }
 }
 
 .head {
