@@ -33,7 +33,14 @@ body {
 .head {
   padding: 5rem;
   width: 100vw;
-  background-color: #ffa6c1;
+  background-color: #ffffff;
+  display: inline-block;
+  padding: 1em;
+  background-color: #000;
+  text-decoration: none;
+  color: white;
+  transition: color 0.5s ease;
+  border-right: solid #ffd512 10px;
 }
 
 #heading {
@@ -51,18 +58,27 @@ body {
   font-style: italic;
 }
 .card {
-  background-color: #ff91af;
+  background-color: #ffffff;
   width: 40rem;
   height: 40rem;
   margin-top: 12rem;
   margin-bottom: 12rem;
   border-radius: 5%;
   box-shadow: 0 4px 8px 0 #6e6e6e;
-  transition: all 0.3s;
+  transition: all 0.2s;
+  outline-offset: 3px;
 }
 
+.head:hover {
+  color: #ffa6c1;
+}
 .card:hover {
-  transform: scale(1.5);
+  transform: scale(1.1);
+  outline: 4px solid #ff5d8f;
+}
+
+.card:not(:hover) {
+  opacity: 0.3;
 }
 
 .name {
